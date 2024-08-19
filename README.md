@@ -9,8 +9,7 @@ Sauce Demo Automation Using Selenium
 
 # Dependency
 Make sure MAVEN is installed in your system's path variable. 
-To install MAVEN got to: https://maven.apache.org/download.cgi
-Add it to your system's path variable/environment variable
+To install MAVEN got to: https://maven.apache.org/download.cgi and add it to the maven folder path to your system's path variable/environment variable
 
 
 
