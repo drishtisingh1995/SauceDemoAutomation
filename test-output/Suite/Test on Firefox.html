@@ -1,0 +1,236 @@
+<html>
+<head>
+<title>TestNG:  Test on Firefox</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test on Firefox</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>13/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Aug 18 19:53:38 CDT 2024</td>
+</tr>
+<tr><td>Total time:</td><td>41 seconds (41642 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='saucedemoautomation.tests.LoginPageTest.VerifySignInFunctionality()'><b>VerifySignInFunctionality</b><br>Test class: saucedemoautomation.tests.LoginPageTest<br>Parameters: valid, standard_user, secret_sauce<br/>
+<a href="#Output-872736196" onClick='toggleBox("Output-872736196", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-872736196" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-872736196">
+Test PassedVerifySignInFunctionality<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>saucedemoautomation.tests.LoginPageTest@7e3181aa</td></tr>
+<tr>
+<td title='saucedemoautomation.tests.CheckoutTest.verifyValidCheckoutInformation()'><b>verifyValidCheckoutInformation</b><br>Test class: saucedemoautomation.tests.CheckoutTest<br>Parameters: Drishti, Singh, 75019<br/>
+<a href="#Output-651431031" onClick='toggleBox("Output-651431031", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-651431031" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-651431031">
+Test PassedverifyValidCheckoutInformation<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>saucedemoautomation.tests.CheckoutTest@253d9f73</td></tr>
+<tr>
+<td title='saucedemoautomation.tests.AcessCartTest.verifyCartProductNameAndPrice()'><b>verifyCartProductNameAndPrice</b><br>Test class: saucedemoautomation.tests.AcessCartTest<br/>
+<a href="#Output-562096009" onClick='toggleBox("Output-562096009", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-562096009" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-562096009">
+Test PassedverifyCartProductNameAndPrice<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>saucedemoautomation.tests.AcessCartTest@77258e59</td></tr>
+<tr>
+<td title='saucedemoautomation.tests.AddProductsToCartTest.verifyCartBadgeRemoveFunctionality()'><b>verifyCartBadgeRemoveFunctionality</b><br>Test class: saucedemoautomation.tests.AddProductsToCartTest<br/>
+<a href="#Output-1726169577" onClick='toggleBox("Output-1726169577", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1726169577" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1726169577">
+Test PassedverifyCartBadgeRemoveFunctionality<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>saucedemoautomation.tests.AddProductsToCartTest@2250b9f2</td></tr>
+<tr>
+<td title='saucedemoautomation.tests.LoginPageTest.VerifySignInFunctionality()'><b>VerifySignInFunctionality</b><br>Test class: saucedemoautomation.tests.LoginPageTest<br>Parameters: invalidPW, standard_user, secret<br/>
+<a href="#Output-1514631948" onClick='toggleBox("Output-1514631948", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1514631948" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1514631948">
+Test PassedVerifySignInFunctionality<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>saucedemoautomation.tests.LoginPageTest@7e3181aa</td></tr>
+<tr>
+<td title='saucedemoautomation.tests.SortProductsTest.sortByName()'><b>sortByName</b><br>Test class: saucedemoautomation.tests.SortProductsTest<br>Parameters: az<br/>
+<a href="#Output-1627618479" onClick='toggleBox("Output-1627618479", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1627618479" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1627618479">
+Test PassedsortByName<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>saucedemoautomation.tests.SortProductsTest@5dcd8c7a</td></tr>
+<tr>
+<td title='saucedemoautomation.tests.SortProductsTest.sortByPrice()'><b>sortByPrice</b><br>Test class: saucedemoautomation.tests.SortProductsTest<br>Parameters: hilo<br/>
+<a href="#Output-16957838" onClick='toggleBox("Output-16957838", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-16957838" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-16957838">
+Test PassedsortByPrice<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>saucedemoautomation.tests.SortProductsTest@5dcd8c7a</td></tr>
+<tr>
+<td title='saucedemoautomation.tests.SortProductsTest.sortByPrice()'><b>sortByPrice</b><br>Test class: saucedemoautomation.tests.SortProductsTest<br>Parameters: lohi<br/>
+<a href="#Output-2100073313" onClick='toggleBox("Output-2100073313", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2100073313" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2100073313">
+Test PassedsortByPrice<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>saucedemoautomation.tests.SortProductsTest@5dcd8c7a</td></tr>
+<tr>
+<td title='saucedemoautomation.tests.LoginPageTest.VerifySignInFunctionality()'><b>VerifySignInFunctionality</b><br>Test class: saucedemoautomation.tests.LoginPageTest<br>Parameters: emptyUM, , secret_sauce<br/>
+<a href="#Output-288537251" onClick='toggleBox("Output-288537251", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-288537251" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-288537251">
+Test PassedVerifySignInFunctionality<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>saucedemoautomation.tests.LoginPageTest@7e3181aa</td></tr>
+<tr>
+<td title='saucedemoautomation.tests.AddProductsToCartTest.verifyCartBadgeAddFunctionality()'><b>verifyCartBadgeAddFunctionality</b><br>Test class: saucedemoautomation.tests.AddProductsToCartTest<br/>
+<a href="#Output-589094312" onClick='toggleBox("Output-589094312", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-589094312" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-589094312">
+Test PassedverifyCartBadgeAddFunctionality<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>saucedemoautomation.tests.AddProductsToCartTest@2250b9f2</td></tr>
+<tr>
+<td title='saucedemoautomation.tests.LoginPageTest.VerifySignInFunctionality()'><b>VerifySignInFunctionality</b><br>Test class: saucedemoautomation.tests.LoginPageTest<br>Parameters: lockedout, locked_out_user, secret_sauce<br/>
+<a href="#Output-1608805714" onClick='toggleBox("Output-1608805714", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1608805714" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1608805714">
+Test PassedVerifySignInFunctionality<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>saucedemoautomation.tests.LoginPageTest@7e3181aa</td></tr>
+<tr>
+<td title='saucedemoautomation.tests.SortProductsTest.sortByName()'><b>sortByName</b><br>Test class: saucedemoautomation.tests.SortProductsTest<br>Parameters: za<br/>
+<a href="#Output-371554459" onClick='toggleBox("Output-371554459", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-371554459" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-371554459">
+Test PassedsortByName<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>saucedemoautomation.tests.SortProductsTest@5dcd8c7a</td></tr>
+<tr>
+<td title='saucedemoautomation.tests.CheckoutTest.verifyInvalidCheckoutInformation()'><b>verifyInvalidCheckoutInformation</b><br>Test class: saucedemoautomation.tests.CheckoutTest<br>Parameters: Drishti, , 75019<br/>
+<a href="#Output-1389978471" onClick='toggleBox("Output-1389978471", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1389978471" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1389978471">
+Test PassedverifyInvalidCheckoutInformation<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>saucedemoautomation.tests.CheckoutTest@253d9f73</td></tr>
+</table><p>
+</body>
+</html>

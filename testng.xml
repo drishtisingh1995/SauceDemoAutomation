@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="2">
+	<listeners>
+		<listener class-name="saucedemoautomation.resources.Listener"></listener>
+	</listeners>
+
+	<!-- Test for Chrome -->
+	<test name="Test on Chrome">
+		<parameter name="browserName" value="Chrome"></parameter>
+		<classes>
+			<class name="saucedemoautomation.tests.AcessCartTest" />
+			<class name="saucedemoautomation.tests.SortProductsTest" />
+			<class name="saucedemoautomation.tests.AddProductsToCartTest" />
+			<class name="saucedemoautomation.tests.LoginPageTest" />
+			<class name="saucedemoautomation.tests.CheckoutTest" />
+		</classes>
+	</test>
+
+
+
+</suite>

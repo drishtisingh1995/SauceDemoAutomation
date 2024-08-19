@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="19.695" tests="13" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/drishtisingh/Desktop/eclipse-workspace/saucedemoautomation/target/test-classes:/Users/drishtisingh/Desktop/eclipse-workspace/saucedemoautomation/target/classes:/Users/drishtisingh/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/drishtisingh/.m2/repository/org/seleniumhq/selenium/selenium-java/4.23.1/selenium-java-4.23.1.jar:/Users/drishtisingh/.m2/repository/org/seleniumhq/selenium/selenium-api/4.23.1/selenium-api-4.23.1.jar:/Users/drishtisingh/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.23.1/selenium-chrome-driver-4.23.1.jar:/Users/drishtisingh/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/drishtisingh/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.23.1/selenium-chromium-driver-4.23.1.jar:/Users/drishtisingh/.m2/repository/org/seleniumhq/selenium/selenium-json/4.23.1/selenium-json-4.23.1.jar:/Users/drishtisingh/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.23.1/selenium-manager-4.23.1.jar:/Users/drishtisingh/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v125/4.23.1/selenium-devtools-v125-4.23.1.jar:/Users/drishtisingh/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v126/4.23.1/selenium-devtools-v126-4.23.1.jar:/Users/drishtisingh/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v127/4.23.1/selenium-devtools-v127-4.23.1.jar:/Users/drishtisingh/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.23.1/selenium-devtools-v85-4.23.1.jar:/Users/drishtisingh/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.23.1/selenium-edge-driver-4.23.1.jar:/Users/drishtisingh/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.23.1/selenium-firefox-driver-4.23.1.jar:/Users/drishtisingh/.m2/repository/org/seleniumhq/selenium/selenium-http/4.23.1/selenium-http-4.23.1.jar:/Users/drishtisingh/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/drishtisingh/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.23.1/selenium-ie-driver-4.23.1.jar:/Users/drishtisingh/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.23.1/selenium-remote-driver-4.23.1.jar:/Users/drishtisingh/.m2/repository/com/google/guava/guava/33.2.1-jre/guava-33.2.1-jre.jar:/Users/drishtisingh/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/drishtisingh/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/drishtisingh/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/drishtisingh/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/Users/drishtisingh/.m2/repository/com/google/errorprone/error_prone_annotations/2.26.1/error_prone_annotations-2.26.1.jar:/Users/drishtisingh/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/drishtisingh/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar:/Users/drishtisingh/.m2/repository/io/opentelemetry/opentelemetry-api/1.40.0/opentelemetry-api-1.40.0.jar:/Users/drishtisingh/.m2/repository/io/opentelemetry/opentelemetry-context/1.40.0/opentelemetry-context-1.40.0.jar:/Users/drishtisingh/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.40.0/opentelemetry-exporter-logging-1.40.0.jar:/Users/drishtisingh/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.40.0/opentelemetry-sdk-common-1.40.0.jar:/Users/drishtisingh/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.40.0/opentelemetry-sdk-extension-autoconfigure-spi-1.40.0.jar:/Users/drishtisingh/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.40.0/opentelemetry-sdk-extension-autoconfigure-1.40.0.jar:/Users/drishtisingh/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.40.0-alpha/opentelemetry-api-incubator-1.40.0-alpha.jar:/Users/drishtisingh/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.40.0/opentelemetry-sdk-trace-1.40.0.jar:/Users/drishtisingh/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.40.0/opentelemetry-sdk-1.40.0.jar:/Users/drishtisingh/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.40.0/opentelemetry-sdk-metrics-1.40.0.jar:/Users/drishtisingh/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.40.0/opentelemetry-sdk-logs-1.40.0.jar:/Users/drishtisingh/.m2/repository/net/bytebuddy/byte-buddy/1.14.18/byte-buddy-1.14.18.jar:/Users/drishtisingh/.m2/repository/org/seleniumhq/selenium/selenium-os/4.23.1/selenium-os-4.23.1.jar:/Users/drishtisingh/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/drishtisingh/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.23.1/selenium-safari-driver-4.23.1.jar:/Users/drishtisingh/.m2/repository/org/seleniumhq/selenium/selenium-support/4.23.1/selenium-support-4.23.1.jar:/Users/drishtisingh/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/drishtisingh/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/drishtisingh/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/drishtisingh/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/drishtisingh/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar:/Users/drishtisingh/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/drishtisingh/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/drishtisingh/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/drishtisingh/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/drishtisingh/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/drishtisingh/.m2/repository/org/apache/poi/poi/5.3.0/poi-5.3.0.jar:/Users/drishtisingh/.m2/repository/commons-codec/commons-codec/1.17.0/commons-codec-1.17.0.jar:/Users/drishtisingh/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/drishtisingh/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/drishtisingh/.m2/repository/commons-io/commons-io/2.16.1/commons-io-2.16.1.jar:/Users/drishtisingh/.m2/repository/com/zaxxer/SparseBitSet/1.3/SparseBitSet-1.3.jar:/Users/drishtisingh/.m2/repository/org/apache/logging/log4j/log4j-core/2.23.1/log4j-core-2.23.1.jar:/Users/drishtisingh/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.23.1/log4j-slf4j-impl-2.23.1.jar:/Users/drishtisingh/.m2/repository/org/apache/logging/log4j/log4j-api/2.23.1/log4j-api-2.23.1.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-17.0.4.1.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/drishtisingh/Desktop/eclipse-workspace/saucedemoautomation/target/surefire/surefirebooter-20240818223345591_3.jar /Users/drishtisingh/Desktop/eclipse-workspace/saucedemoautomation/target/surefire 2024-08-18T22-33-45_552-jvmRun1 surefire-20240818223345591_1tmp surefire_0-20240818223345591_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/drishtisingh/Desktop/eclipse-workspace/saucedemoautomation/target/test-classes:/Users/drishtisingh/Desktop/eclipse-workspace/saucedemoautomation/target/classes:/Users/drishtisingh/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/drishtisingh/.m2/repository/org/seleniumhq/selenium/selenium-java/4.23.1/selenium-java-4.23.1.jar:/Users/drishtisingh/.m2/repository/org/seleniumhq/selenium/selenium-api/4.23.1/selenium-api-4.23.1.jar:/Users/drishtisingh/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.23.1/selenium-chrome-driver-4.23.1.jar:/Users/drishtisingh/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/drishtisingh/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.23.1/selenium-chromium-driver-4.23.1.jar:/Users/drishtisingh/.m2/repository/org/seleniumhq/selenium/selenium-json/4.23.1/selenium-json-4.23.1.jar:/Users/drishtisingh/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.23.1/selenium-manager-4.23.1.jar:/Users/drishtisingh/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v125/4.23.1/selenium-devtools-v125-4.23.1.jar:/Users/drishtisingh/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v126/4.23.1/selenium-devtools-v126-4.23.1.jar:/Users/drishtisingh/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v127/4.23.1/selenium-devtools-v127-4.23.1.jar:/Users/drishtisingh/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.23.1/selenium-devtools-v85-4.23.1.jar:/Users/drishtisingh/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.23.1/selenium-edge-driver-4.23.1.jar:/Users/drishtisingh/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.23.1/selenium-firefox-driver-4.23.1.jar:/Users/drishtisingh/.m2/repository/org/seleniumhq/selenium/selenium-http/4.23.1/selenium-http-4.23.1.jar:/Users/drishtisingh/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/drishtisingh/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.23.1/selenium-ie-driver-4.23.1.jar:/Users/drishtisingh/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.23.1/selenium-remote-driver-4.23.1.jar:/Users/drishtisingh/.m2/repository/com/google/guava/guava/33.2.1-jre/guava-33.2.1-jre.jar:/Users/drishtisingh/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/drishtisingh/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/drishtisingh/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/drishtisingh/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/Users/drishtisingh/.m2/repository/com/google/errorprone/error_prone_annotations/2.26.1/error_prone_annotations-2.26.1.jar:/Users/drishtisingh/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/drishtisingh/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar:/Users/drishtisingh/.m2/repository/io/opentelemetry/opentelemetry-api/1.40.0/opentelemetry-api-1.40.0.jar:/Users/drishtisingh/.m2/repository/io/opentelemetry/opentelemetry-context/1.40.0/opentelemetry-context-1.40.0.jar:/Users/drishtisingh/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.40.0/opentelemetry-exporter-logging-1.40.0.jar:/Users/drishtisingh/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.40.0/opentelemetry-sdk-common-1.40.0.jar:/Users/drishtisingh/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.40.0/opentelemetry-sdk-extension-autoconfigure-spi-1.40.0.jar:/Users/drishtisingh/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.40.0/opentelemetry-sdk-extension-autoconfigure-1.40.0.jar:/Users/drishtisingh/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.40.0-alpha/opentelemetry-api-incubator-1.40.0-alpha.jar:/Users/drishtisingh/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.40.0/opentelemetry-sdk-trace-1.40.0.jar:/Users/drishtisingh/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.40.0/opentelemetry-sdk-1.40.0.jar:/Users/drishtisingh/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.40.0/opentelemetry-sdk-metrics-1.40.0.jar:/Users/drishtisingh/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.40.0/opentelemetry-sdk-logs-1.40.0.jar:/Users/drishtisingh/.m2/repository/net/bytebuddy/byte-buddy/1.14.18/byte-buddy-1.14.18.jar:/Users/drishtisingh/.m2/repository/org/seleniumhq/selenium/selenium-os/4.23.1/selenium-os-4.23.1.jar:/Users/drishtisingh/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/drishtisingh/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.23.1/selenium-safari-driver-4.23.1.jar:/Users/drishtisingh/.m2/repository/org/seleniumhq/selenium/selenium-support/4.23.1/selenium-support-4.23.1.jar:/Users/drishtisingh/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/drishtisingh/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/drishtisingh/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/drishtisingh/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/drishtisingh/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar:/Users/drishtisingh/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/drishtisingh/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/drishtisingh/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/drishtisingh/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/drishtisingh/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/drishtisingh/.m2/repository/org/apache/poi/poi/5.3.0/poi-5.3.0.jar:/Users/drishtisingh/.m2/repository/commons-codec/commons-codec/1.17.0/commons-codec-1.17.0.jar:/Users/drishtisingh/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/drishtisingh/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/drishtisingh/.m2/repository/commons-io/commons-io/2.16.1/commons-io-2.16.1.jar:/Users/drishtisingh/.m2/repository/com/zaxxer/SparseBitSet/1.3/SparseBitSet-1.3.jar:/Users/drishtisingh/.m2/repository/org/apache/logging/log4j/log4j-core/2.23.1/log4j-core-2.23.1.jar:/Users/drishtisingh/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.23.1/log4j-slf4j-impl-2.23.1.jar:/Users/drishtisingh/.m2/repository/org/apache/logging/log4j/log4j-api/2.23.1/log4j-api-2.23.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/drishtisingh"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-17.0.4.1.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/drishtisingh/Desktop/eclipse-workspace/saucedemoautomation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/drishtisingh/Desktop/eclipse-workspace/saucedemoautomation/target/surefire/surefirebooter-20240818223345591_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="17.0.4.1+1-LTS-2"/>
+    <property name="user.name" value="drishtisingh"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="14.5"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/drishtisingh/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/kd/5z30ns2n579842wn5jcmzspw0000gn/T/"/>
+    <property name="java.version" value="17.0.4.1"/>
+    <property name="user.dir" value="/Users/drishtisingh/Desktop/eclipse-workspace/saucedemoautomation"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/drishtisingh/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.4.1+1-LTS-2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="verifyCartBadgeAddFunctionality" classname="saucedemoautomation.tests.AddProductsToCartTest" time="2.107">
+    <system-out><![CDATA[2024-08-18 22:33:48 INFO  saucedemoautomation.tests.AddProductsToCartTest - Setting up AddProductsToCartTest.
+2024-08-18 22:33:48 INFO  saucedemoautomation.tests.AddProductsToCartTest - Logged in successfully.
+2024-08-18 22:33:48 INFO  saucedemoautomation.tests.AddProductsToCartTest - Starting verifyCartBadgeAddFunctionality test.
+2024-08-18 22:33:48 INFO  saucedemoautomation.tests.AddProductsToCartTest - Added Item 1 to cart. Expected badge number: 1
+2024-08-18 22:33:48 INFO  saucedemoautomation.tests.AddProductsToCartTest - Verified badge number after adding 1st item
+2024-08-18 22:33:48 INFO  saucedemoautomation.tests.AddProductsToCartTest - Added Item 1 to cart. Expected badge number: 2
+2024-08-18 22:33:48 INFO  saucedemoautomation.tests.AddProductsToCartTest - Verified badge number after adding 2nd item
+2024-08-18 22:33:50 INFO  saucedemoautomation.tests.AddProductsToCartTest - Finished verifyCartBadgeAddFunctionality test.
+]]></system-out>
+  </testcase>
+  <testcase name="verifyCartBadgeRemoveFunctionality" classname="saucedemoautomation.tests.AddProductsToCartTest" time="2.08">
+    <system-out><![CDATA[2024-08-18 22:33:50 INFO  saucedemoautomation.tests.AddProductsToCartTest - Starting verifyCartBadgeRemoveFunctionality test.
+2024-08-18 22:33:50 INFO  saucedemoautomation.tests.AddProductsToCartTest - Removed Item 1 from cart. Expected badge number: 1
+2024-08-18 22:33:50 INFO  saucedemoautomation.tests.AddProductsToCartTest - Verified badge number after removing 1st item
+2024-08-18 22:33:50 INFO  saucedemoautomation.tests.AddProductsToCartTest - Removed Item 2 from cart. Expected badge number: 0
+2024-08-18 22:33:50 INFO  saucedemoautomation.tests.AddProductsToCartTest - Verified badge number after removing 2nd item
+2024-08-18 22:33:52 INFO  saucedemoautomation.tests.AddProductsToCartTest - Finished verifyCartBadgeRemoveFunctionality test.
+]]></system-out>
+  </testcase>
+  <testcase name="verifyInvalidCheckoutInformation[Drishti, , 75019](1)" classname="saucedemoautomation.tests.CheckoutTest" time="2.302">
+    <system-out><![CDATA[2024-08-18 22:33:54 INFO  saucedemoautomation.tests.CheckoutTest - Setting up CheckoutTest.
+2024-08-18 22:33:54 INFO  saucedemoautomation.tests.CheckoutTest - Logged in successfully.
+2024-08-18 22:33:54 INFO  saucedemoautomation.tests.CheckoutTest - Added Item 1 & Item 2 to cart.
+2024-08-18 22:33:54 INFO  saucedemoautomation.tests.CheckoutTest - Navigated to the access cart page.
+2024-08-18 22:33:54 INFO  saucedemoautomation.tests.CheckoutTest - Navigated to checkout information page.
+2024-08-18 22:33:54 INFO  saucedemoautomation.tests.CheckoutTest - Starting verifyInvalidCheckoutInformation test.
+2024-08-18 22:33:54 INFO  saucedemoautomation.tests.CheckoutTest - Verified URL is correct for checkout information page.
+2024-08-18 22:33:54 INFO  saucedemoautomation.tests.CheckoutTest - Entered invalid customer information: First Name: Drishti, Last Name: , Postal Code: 75019
+2024-08-18 22:33:54 INFO  saucedemoautomation.tests.CheckoutTest - Attempted to continue checkout with invalid information.
+2024-08-18 22:33:54 INFO  saucedemoautomation.tests.CheckoutTest - Received expected error message for invalid last name.
+2024-08-18 22:33:54 INFO  saucedemoautomation.tests.CheckoutTest - Dismissed error message.
+2024-08-18 22:33:56 INFO  saucedemoautomation.tests.CheckoutTest - Refreshed checkout information page.
+2024-08-18 22:33:56 INFO  saucedemoautomation.tests.CheckoutTest - Finished verifyInvalidCheckoutInformation test.
+]]></system-out>
+  </testcase>
+  <testcase name="verifyValidCheckoutInformation[Drishti, Singh, 75019](1)" classname="saucedemoautomation.tests.CheckoutTest" time="0.226">
+    <system-out><![CDATA[2024-08-18 22:33:56 INFO  saucedemoautomation.tests.CheckoutTest - Starting verifyValidCheckoutInformation test.
+2024-08-18 22:33:56 INFO  saucedemoautomation.tests.CheckoutTest - Verified URL is correct for checkout information page.
+2024-08-18 22:33:56 INFO  saucedemoautomation.tests.CheckoutTest - Entered customer information: First Name: Drishti, Last Name: Singh, Postal Code: 75019
+2024-08-18 22:33:57 INFO  saucedemoautomation.tests.CheckoutTest - Continued to checkout overview.
+2024-08-18 22:33:57 INFO  saucedemoautomation.tests.CheckoutTest - Verified URL is correct for checkout overview page.
+Tax: $3.68
+2024-08-18 22:33:57 INFO  saucedemoautomation.tests.CheckoutTest - Verified Calculated tax is present.
+2024-08-18 22:33:57 INFO  saucedemoautomation.tests.CheckoutTest - Finished checkout process.
+2024-08-18 22:33:57 INFO  saucedemoautomation.tests.CheckoutTest - Verified URL is correct for order confirmation page.
+Thank you for your order!
+2024-08-18 22:33:57 INFO  saucedemoautomation.tests.CheckoutTest - Verified order confirmation text.
+2024-08-18 22:33:57 INFO  saucedemoautomation.tests.CheckoutTest - Finished verifyValidCheckoutInformation test.
+]]></system-out>
+  </testcase>
+  <testcase name="verifyCartProductNameAndPrice" classname="saucedemoautomation.tests.AcessCartTest" time="0.072">
+    <system-out><![CDATA[2024-08-18 22:33:58 INFO  saucedemoautomation.tests.AcessCartTest - Setting up AcessCartTest.
+2024-08-18 22:33:58 INFO  saucedemoautomation.tests.AcessCartTest - Logged in successfully.
+2024-08-18 22:33:58 INFO  saucedemoautomation.tests.AcessCartTest - Added Item 1 & Item 2 to cart.
+2024-08-18 22:33:58 INFO  saucedemoautomation.tests.AcessCartTest - Navigated to the access cart page.
+2024-08-18 22:33:58 INFO  saucedemoautomation.tests.AcessCartTest - Starting verifyCartProductNameAndPrice test.
+Expected Item Names Are: [Sauce Labs Backpack, Test.allTheThings() T-Shirt (Red)]
+Item Names In Cart Are: [Sauce Labs Backpack, Test.allTheThings() T-Shirt (Red)]
+2024-08-18 22:33:58 INFO  saucedemoautomation.tests.AcessCartTest - Product names in the cart are as expected.
+Expected Item Prices Are: [29.99, 15.99]
+Item Prices In Cart Are: [29.99, 15.99]
+2024-08-18 22:33:58 INFO  saucedemoautomation.tests.AcessCartTest - Item prices in the cart are as expected.
+2024-08-18 22:33:58 INFO  saucedemoautomation.tests.AcessCartTest - Finished verifyCartProductNameAndPrice test.
+]]></system-out>
+  </testcase>
+  <testcase name="sortByName[za](1)" classname="saucedemoautomation.tests.SortProductsTest" time="0.104">
+    <system-out><![CDATA[2024-08-18 22:34:00 INFO  saucedemoautomation.tests.SortProductsTest - Setting up SortProductsTest.
+2024-08-18 22:34:00 INFO  saucedemoautomation.tests.SortProductsTest - Logged in successfully.
+2024-08-18 22:34:00 INFO  saucedemoautomation.tests.SortProductsTest - Starting sortByName test with filter: za
+Product Names: [Test.allTheThings() T-Shirt (Red), Sauce Labs Onesie, Sauce Labs Fleece Jacket, Sauce Labs Bolt T-Shirt, Sauce Labs Bike Light, Sauce Labs Backpack]
+Expected Product Names: [Test.allTheThings() T-Shirt (Red), Sauce Labs Onesie, Sauce Labs Fleece Jacket, Sauce Labs Bolt T-Shirt, Sauce Labs Bike Light, Sauce Labs Backpack]
+2024-08-18 22:34:00 INFO  saucedemoautomation.tests.SortProductsTest - Sort by name test completed with filter: za
+]]></system-out>
+  </testcase>
+  <testcase name="sortByName[az](2)" classname="saucedemoautomation.tests.SortProductsTest" time="0.072">
+    <system-out><![CDATA[2024-08-18 22:34:00 INFO  saucedemoautomation.tests.SortProductsTest - Starting sortByName test with filter: az
+Product Names: [Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket, Sauce Labs Onesie, Test.allTheThings() T-Shirt (Red)]
+Expected Product Names: [Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket, Sauce Labs Onesie, Test.allTheThings() T-Shirt (Red)]
+2024-08-18 22:34:00 INFO  saucedemoautomation.tests.SortProductsTest - Sort by name test completed with filter: az
+]]></system-out>
+  </testcase>
+  <testcase name="sortByPrice[lohi](1)" classname="saucedemoautomation.tests.SortProductsTest" time="0.081">
+    <system-out><![CDATA[2024-08-18 22:34:00 INFO  saucedemoautomation.tests.SortProductsTest - Starting sortByPrice test with filter: lohi
+Product Prices: [7.99, 9.99, 15.99, 15.99, 29.99, 49.99]
+Expected Product Prices: [7.99, 9.99, 15.99, 15.99, 29.99, 49.99]
+2024-08-18 22:34:00 INFO  saucedemoautomation.tests.SortProductsTest - Sort by price test completed with filter: lohi
+]]></system-out>
+  </testcase>
+  <testcase name="sortByPrice[hilo](2)" classname="saucedemoautomation.tests.SortProductsTest" time="0.068">
+    <system-out><![CDATA[2024-08-18 22:34:00 INFO  saucedemoautomation.tests.SortProductsTest - Starting sortByPrice test with filter: hilo
+Product Prices: [49.99, 29.99, 15.99, 15.99, 9.99, 7.99]
+Expected Product Prices: [49.99, 29.99, 15.99, 15.99, 9.99, 7.99]
+2024-08-18 22:34:00 INFO  saucedemoautomation.tests.SortProductsTest - Sort by price test completed with filter: hilo
+]]></system-out>
+  </testcase>
+  <testcase name="VerifySignInFunctionality[valid, standard_user, secret_sauce](1)" classname="saucedemoautomation.tests.LoginPageTest" time="2.319">
+    <system-out><![CDATA[2024-08-18 22:34:02 INFO  saucedemoautomation.tests.LoginPageTest - Starting VerifySignInFunctionality test with condition: valid
+2024-08-18 22:34:02 INFO  saucedemoautomation.tests.LoginPageTest - Successfully logged in with valid credentials.
+]]></system-out>
+  </testcase>
+  <testcase name="VerifySignInFunctionality[lockedout, locked_out_user, secret_sauce](2)" classname="saucedemoautomation.tests.LoginPageTest" time="0.125">
+    <system-out><![CDATA[2024-08-18 22:34:04 INFO  saucedemoautomation.tests.LoginPageTest - Resetting state by navigating back to the base URL.
+2024-08-18 22:34:04 INFO  saucedemoautomation.tests.LoginPageTest - Starting VerifySignInFunctionality test with condition: lockedout
+2024-08-18 22:34:04 INFO  saucedemoautomation.tests.LoginPageTest - Attempted to log in with locked user credentials.
+]]></system-out>
+  </testcase>
+  <testcase name="VerifySignInFunctionality[invalidPW, standard_user, secret](3)" classname="saucedemoautomation.tests.LoginPageTest" time="0.145">
+    <system-out><![CDATA[2024-08-18 22:34:04 INFO  saucedemoautomation.tests.LoginPageTest - Resetting state by navigating back to the base URL.
+2024-08-18 22:34:04 INFO  saucedemoautomation.tests.LoginPageTest - Starting VerifySignInFunctionality test with condition: invalidPW
+2024-08-18 22:34:05 INFO  saucedemoautomation.tests.LoginPageTest - Attempted to log in with an invalid password.
+]]></system-out>
+  </testcase>
+  <testcase name="VerifySignInFunctionality[emptyUM, , secret_sauce](4)" classname="saucedemoautomation.tests.LoginPageTest" time="0.118">
+    <system-out><![CDATA[2024-08-18 22:34:05 INFO  saucedemoautomation.tests.LoginPageTest - Resetting state by navigating back to the base URL.
+2024-08-18 22:34:05 INFO  saucedemoautomation.tests.LoginPageTest - Starting VerifySignInFunctionality test with condition: emptyUM
+2024-08-18 22:34:05 INFO  saucedemoautomation.tests.LoginPageTest - Attempted to log in with an empty username.
+]]></system-out>
+  </testcase>
+</testsuite>

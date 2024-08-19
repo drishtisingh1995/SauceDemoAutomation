@@ -1,0 +1,53 @@
+2024-08-18 20:32:24 DEBUG TestNG:82 - suiteXmlPath: "/var/folders/kd/5z30ns2n579842wn5jcmzspw0000gn/T/testng-eclipse--147195102/testng-customsuite.xml"
+2024-08-18 20:32:24 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-08-18 20:32:24 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2024-08-18 20:32:24 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-08-18 20:32:24 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-08-18 20:32:24 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-08-18 20:32:24 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-08-18 20:32:24 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-08-18 20:32:24 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-08-18 20:32:24 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+2024-08-18 20:32:24 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 13 ms.
+2024-08-18 20:32:24 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-08-18 20:32:24 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2024-08-18 20:32:24 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-08-18 20:32:24 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-08-18 20:32:24 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-08-18 20:32:24 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-08-18 20:32:24 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-08-18 20:32:24 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-08-18 20:32:24 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-08-18 20:32:24 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-08-18 20:32:24 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-08-18 20:32:24 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-08-18 20:32:24 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-08-18 20:32:24 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-08-18 20:32:24 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2024-08-18 20:32:24 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-08-18 20:32:24 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-08-18 20:32:24 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-08-18 20:32:24 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-08-18 20:32:24 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-08-18 20:32:24 INFO  Utils:112 - [TestNG] Running:
+  /private/var/folders/kd/5z30ns2n579842wn5jcmzspw0000gn/T/testng-eclipse--147195102/testng-customsuite.xml
+
+2024-08-18 20:32:24 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+2024-08-18 20:32:34 INFO  LoginPageTest:27 - Starting VerifySignInFunctionality test with condition: valid
+2024-08-18 20:32:37 INFO  LoginPageTest:33 - Successfully logged in with valid credentials.
+2024-08-18 20:32:50 INFO  LoginPageTest:55 - Resetting state by navigating back to the base URL.
+2024-08-18 20:32:51 INFO  LoginPageTest:27 - Starting VerifySignInFunctionality test with condition: lockedout
+2024-08-18 20:32:53 INFO  LoginPageTest:39 - Attempted to log in with locked user credentials.
+2024-08-18 20:32:53 INFO  LoginPageTest:55 - Resetting state by navigating back to the base URL.
+2024-08-18 20:32:54 INFO  LoginPageTest:27 - Starting VerifySignInFunctionality test with condition: invalidPW
+2024-08-18 20:32:54 WARN  LoginPageTest:44 - Attempted to log in with an invalid password.
+2024-08-18 20:32:54 INFO  LoginPageTest:55 - Resetting state by navigating back to the base URL.
+2024-08-18 20:32:54 INFO  LoginPageTest:27 - Starting VerifySignInFunctionality test with condition: emptyUM
+2024-08-18 20:32:55 WARN  LoginPageTest:49 - Attempted to log in with an empty username.
+2024-08-18 20:32:55 INFO  LoginPageTest:55 - Resetting state by navigating back to the base URL.
+2024-08-18 20:32:55 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.jq.Main@6edcad64: 60 ms
+2024-08-18 20:32:55 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.FailedReporter@77774571: 8 ms
+2024-08-18 20:32:55 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.XMLReporter@56a4f272: 19 ms
+2024-08-18 20:32:55 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@337bbfdf: 7 ms
+2024-08-18 20:32:55 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@5b5e7036: 6 ms
+2024-08-18 20:32:55 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@62dbe64e: 0 ms

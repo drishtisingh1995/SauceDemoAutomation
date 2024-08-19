@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Test PassedverifyCartProductNameAndPrice]]>
+    </line>
+    <line>
+      <![CDATA[Test PassedsortByName]]>
+    </line>
+    <line>
+      <![CDATA[Test PassedsortByName]]>
+    </line>
+    <line>
+      <![CDATA[Test PassedsortByPrice]]>
+    </line>
+    <line>
+      <![CDATA[Test PassedsortByPrice]]>
+    </line>
+    <line>
+      <![CDATA[Test PassedverifyCartBadgeAddFunctionality]]>
+    </line>
+    <line>
+      <![CDATA[Test PassedverifyCartBadgeRemoveFunctionality]]>
+    </line>
+    <line>
+      <![CDATA[Test PassedVerifySignInFunctionality]]>
+    </line>
+    <line>
+      <![CDATA[Test PassedVerifySignInFunctionality]]>
+    </line>
+    <line>
+      <![CDATA[Test PassedVerifySignInFunctionality]]>
+    </line>
+    <line>
+      <![CDATA[Test PassedVerifySignInFunctionality]]>
+    </line>
+    <line>
+      <![CDATA[Test PassedverifyInvalidCheckoutInformation]]>
+    </line>
+    <line>
+      <![CDATA[Test PassedverifyValidCheckoutInformation]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-08-18T22:37:48 CDT" name="Suite" finished-at="2024-08-18T22:39:19 CDT" duration-ms="90902">
+    <groups>
+    </groups>
+    <test started-at="2024-08-18T22:37:48 CDT" name="Test on Chrome" finished-at="2024-08-18T22:39:19 CDT" duration-ms="90902">
+      <class name="saucedemoautomation.tests.LoginPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:saucedemoautomation.tests.LoginPageTest@4d666b41]" started-at="2024-08-18T22:38:37 CDT" name="setUp" finished-at="2024-08-18T22:38:44 CDT" duration-ms="7383" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifySignInFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:saucedemoautomation.tests.LoginPageTest@4d666b41]" started-at="2024-08-18T22:38:44 CDT" name="VerifySignInFunctionality" data-provider="getCredentials" finished-at="2024-08-18T22:38:52 CDT" duration-ms="7567" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test PassedVerifySignInFunctionality]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifySignInFunctionality -->
+        <test-method is-config="true" signature="resetState()[pri:0, instance:saucedemoautomation.tests.LoginPageTest@4d666b41]" started-at="2024-08-18T22:38:52 CDT" name="resetState" finished-at="2024-08-18T22:38:54 CDT" duration-ms="1932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetState -->
+        <test-method signature="VerifySignInFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:saucedemoautomation.tests.LoginPageTest@4d666b41]" started-at="2024-08-18T22:38:54 CDT" name="VerifySignInFunctionality" data-provider="getCredentials" finished-at="2024-08-18T22:38:56 CDT" duration-ms="2099" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lockedout]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test PassedVerifySignInFunctionality]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifySignInFunctionality -->
+        <test-method is-config="true" signature="resetState()[pri:0, instance:saucedemoautomation.tests.LoginPageTest@4d666b41]" started-at="2024-08-18T22:38:56 CDT" name="resetState" finished-at="2024-08-18T22:38:56 CDT" duration-ms="558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetState -->
+        <test-method signature="VerifySignInFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:saucedemoautomation.tests.LoginPageTest@4d666b41]" started-at="2024-08-18T22:38:56 CDT" name="VerifySignInFunctionality" data-provider="getCredentials" finished-at="2024-08-18T22:38:57 CDT" duration-ms="713" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalidPW]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[secret]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test PassedVerifySignInFunctionality]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifySignInFunctionality -->
+        <test-method is-config="true" signature="resetState()[pri:0, instance:saucedemoautomation.tests.LoginPageTest@4d666b41]" started-at="2024-08-18T22:38:57 CDT" name="resetState" finished-at="2024-08-18T22:38:57 CDT" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetState -->
+        <test-method signature="VerifySignInFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:saucedemoautomation.tests.LoginPageTest@4d666b41]" started-at="2024-08-18T22:38:57 CDT" name="VerifySignInFunctionality" data-provider="getCredentials" finished-at="2024-08-18T22:38:57 CDT" duration-ms="308" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emptyUM]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test PassedVerifySignInFunctionality]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifySignInFunctionality -->
+        <test-method is-config="true" signature="resetState()[pri:0, instance:saucedemoautomation.tests.LoginPageTest@4d666b41]" started-at="2024-08-18T22:38:57 CDT" name="resetState" finished-at="2024-08-18T22:38:58 CDT" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetState -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:saucedemoautomation.tests.LoginPageTest@4d666b41]" started-at="2024-08-18T22:38:58 CDT" name="tearDown" finished-at="2024-08-18T22:38:58 CDT" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- saucedemoautomation.tests.LoginPageTest -->
+      <class name="saucedemoautomation.tests.AddProductsToCartTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:saucedemoautomation.tests.AddProductsToCartTest@22fa55b2]" started-at="2024-08-18T22:38:19 CDT" name="setUp" finished-at="2024-08-18T22:38:27 CDT" duration-ms="7397" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpAddProductsToCartTest()[pri:0, instance:saucedemoautomation.tests.AddProductsToCartTest@22fa55b2]" started-at="2024-08-18T22:38:27 CDT" name="setUpAddProductsToCartTest" finished-at="2024-08-18T22:38:30 CDT" duration-ms="3644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpAddProductsToCartTest -->
+        <test-method signature="verifyCartBadgeAddFunctionality()[pri:0, instance:saucedemoautomation.tests.AddProductsToCartTest@22fa55b2]" started-at="2024-08-18T22:38:30 CDT" name="verifyCartBadgeAddFunctionality" finished-at="2024-08-18T22:38:34 CDT" duration-ms="3576" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test PassedverifyCartBadgeAddFunctionality]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCartBadgeAddFunctionality -->
+        <test-method signature="verifyCartBadgeRemoveFunctionality()[pri:0, instance:saucedemoautomation.tests.AddProductsToCartTest@22fa55b2]" started-at="2024-08-18T22:38:34 CDT" name="verifyCartBadgeRemoveFunctionality" finished-at="2024-08-18T22:38:37 CDT" duration-ms="2765" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test PassedverifyCartBadgeRemoveFunctionality]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCartBadgeRemoveFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:saucedemoautomation.tests.AddProductsToCartTest@22fa55b2]" started-at="2024-08-18T22:38:37 CDT" name="tearDown" finished-at="2024-08-18T22:38:37 CDT" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- saucedemoautomation.tests.AddProductsToCartTest -->
+      <class name="saucedemoautomation.tests.SortProductsTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:saucedemoautomation.tests.SortProductsTest@66f66866]" started-at="2024-08-18T22:38:05 CDT" name="setUp" finished-at="2024-08-18T22:38:13 CDT" duration-ms="7556" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpSortProductTest()[pri:0, instance:saucedemoautomation.tests.SortProductsTest@66f66866]" started-at="2024-08-18T22:38:13 CDT" name="setUpSortProductTest" finished-at="2024-08-18T22:38:16 CDT" duration-ms="3798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSortProductTest -->
+        <test-method signature="sortByName(java.lang.String)[pri:0, instance:saucedemoautomation.tests.SortProductsTest@66f66866]" started-at="2024-08-18T22:38:16 CDT" name="sortByName" data-provider="getNameFilter" finished-at="2024-08-18T22:38:18 CDT" duration-ms="1301" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[za]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test PassedsortByName]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sortByName -->
+        <test-method signature="sortByName(java.lang.String)[pri:0, instance:saucedemoautomation.tests.SortProductsTest@66f66866]" started-at="2024-08-18T22:38:18 CDT" name="sortByName" data-provider="getNameFilter" finished-at="2024-08-18T22:38:18 CDT" duration-ms="619" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[az]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test PassedsortByName]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sortByName -->
+        <test-method signature="sortByPrice(java.lang.String)[pri:0, instance:saucedemoautomation.tests.SortProductsTest@66f66866]" started-at="2024-08-18T22:38:18 CDT" name="sortByPrice" data-provider="getPriceFilter" finished-at="2024-08-18T22:38:19 CDT" duration-ms="364" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lohi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test PassedsortByPrice]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sortByPrice -->
+        <test-method signature="sortByPrice(java.lang.String)[pri:0, instance:saucedemoautomation.tests.SortProductsTest@66f66866]" started-at="2024-08-18T22:38:19 CDT" name="sortByPrice" data-provider="getPriceFilter" finished-at="2024-08-18T22:38:19 CDT" duration-ms="409" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hilo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test PassedsortByPrice]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sortByPrice -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:saucedemoautomation.tests.SortProductsTest@66f66866]" started-at="2024-08-18T22:38:19 CDT" name="tearDown" finished-at="2024-08-18T22:38:19 CDT" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- saucedemoautomation.tests.SortProductsTest -->
+      <class name="saucedemoautomation.tests.AcessCartTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:saucedemoautomation.tests.AcessCartTest@7e11ab3d]" started-at="2024-08-18T22:37:48 CDT" name="setUp" finished-at="2024-08-18T22:37:58 CDT" duration-ms="10112" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpAcessCartTest()[pri:0, instance:saucedemoautomation.tests.AcessCartTest@7e11ab3d]" started-at="2024-08-18T22:37:58 CDT" name="setUpAcessCartTest" finished-at="2024-08-18T22:38:04 CDT" duration-ms="5707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpAcessCartTest -->
+        <test-method signature="verifyCartProductNameAndPrice()[pri:0, instance:saucedemoautomation.tests.AcessCartTest@7e11ab3d]" started-at="2024-08-18T22:38:04 CDT" name="verifyCartProductNameAndPrice" finished-at="2024-08-18T22:38:05 CDT" duration-ms="1067" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test PassedverifyCartProductNameAndPrice]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCartProductNameAndPrice -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:saucedemoautomation.tests.AcessCartTest@7e11ab3d]" started-at="2024-08-18T22:38:05 CDT" name="tearDown" finished-at="2024-08-18T22:38:05 CDT" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- saucedemoautomation.tests.AcessCartTest -->
+      <class name="saucedemoautomation.tests.CheckoutTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:saucedemoautomation.tests.CheckoutTest@6594402a]" started-at="2024-08-18T22:38:58 CDT" name="setUp" finished-at="2024-08-18T22:39:05 CDT" duration-ms="7332" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpCheckoutTest()[pri:0, instance:saucedemoautomation.tests.CheckoutTest@6594402a]" started-at="2024-08-18T22:39:05 CDT" name="setUpCheckoutTest" finished-at="2024-08-18T22:39:11 CDT" duration-ms="5575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpCheckoutTest -->
+        <test-method signature="verifyInvalidCheckoutInformation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:saucedemoautomation.tests.CheckoutTest@6594402a]" started-at="2024-08-18T22:39:11 CDT" name="verifyInvalidCheckoutInformation" data-provider="getInvalidCustomerInformation" finished-at="2024-08-18T22:39:17 CDT" duration-ms="6667" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Drishti]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[75019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test PassedverifyInvalidCheckoutInformation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidCheckoutInformation -->
+        <test-method signature="verifyValidCheckoutInformation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:saucedemoautomation.tests.CheckoutTest@6594402a]" started-at="2024-08-18T22:39:17 CDT" name="verifyValidCheckoutInformation" data-provider="getCustomerInformation" finished-at="2024-08-18T22:39:19 CDT" duration-ms="1604" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Drishti]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Singh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[75019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test PassedverifyValidCheckoutInformation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyValidCheckoutInformation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:saucedemoautomation.tests.CheckoutTest@6594402a]" started-at="2024-08-18T22:39:19 CDT" name="tearDown" finished-at="2024-08-18T22:39:19 CDT" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- saucedemoautomation.tests.CheckoutTest -->
+    </test> <!-- Test on Chrome -->
+  </suite> <!-- Suite -->
+</testng-results>

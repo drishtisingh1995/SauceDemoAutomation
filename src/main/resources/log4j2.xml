@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+	<Appenders>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout
+				pattern="%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n" />
+		</Console>
+	</Appenders>
+	<Loggers>
+		<!-- Set log level to INFO for specific loggers -->
+		<Logger name="saucedemoautomation.tests.LoginPageTest" level="INFO" />
+		<Logger name="saucedemoautomation.tests.SortProductsTest" level="INFO" />
+		<Logger name="saucedemoautomation.tests.AddProductsToCartTest"
+			level="INFO" />
+		<Logger name="saucedemoautomation.tests.AcessCartTest" level="INFO" />
+		<Logger name="saucedemoautomation.tests.CheckoutTest" level="INFO" />
+
+
+		<!-- Explicitly set logging level to OFF for unwanted loggers -->
+		<Logger name="org.testng.internal.Utils" level="OFF" />
+
+		<!-- Root logger level set to INFO to capture all INFO level logs -->
+		<Root level="INFO">
+			<AppenderRef ref="Console" />
+		</Root>
+	</Loggers>
+</Configuration>

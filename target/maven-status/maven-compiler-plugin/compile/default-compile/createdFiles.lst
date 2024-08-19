@@ -1,0 +1,9 @@
+saucedemoautomation/resources/TextMessages.class
+saucedemoautomation/pages/CheckoutPage.class
+saucedemoautomation/pages/LoginPage.class
+saucedemoautomation/resources/Utilities.class
+saucedemoautomation/resources/ExtentReport.class
+saucedemoautomation/base/Base.class
+saucedemoautomation/pages/AccessCartPage.class
+saucedemoautomation/pages/InventoryPage.class
+saucedemoautomation/resources/Listener.class
